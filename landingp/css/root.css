@@ -36,7 +36,10 @@
     --fontfamily01: 'Roboto Condensed', sans-serif;
     --fontfamily-italic: 'Dosis', sans-serif;
     --fontfamily-lores: 'lores-9-wide', sans-serif;
-    --fontfamily-title: 'ohm-bold', sans-serif;
+    --fontfamily-title: 'balboa', sans-serif;
+
+    --fontfamily-title-extra-condensed: 'balboa-extra-condensed', sans-serif;
+    --fontfamily-title-condensed: 'balboa-condensed', sans-serif;
 
 
     }
