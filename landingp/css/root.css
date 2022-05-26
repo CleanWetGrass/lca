@@ -1,0 +1,116 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+    /* font-family: 'Dosis', sans-serif; */
+    
+    
+    :root {
+    --hover-text: #000033;
+    --hover-boxes: #2c0e75;
+    --hover-glow: #ffdd00;
+
+    --chart-tint01: #98d5c8;
+    --chart-tint02: rgb(35, 35, 35);
+
+    --chart-color01: gold;
+    --chart-color01b: #ffc609;
+    --chart-color02: #fff1aa;
+    --chart-color03: #a62634;
+    --chart-color04: #2c0e75;
+    --chart-color05: #102d5b;
+
+    --chart-backcol01: #0099FF;
+    --chart-backcol02: #3399CC;
+
+    --gradient-col1: #0099FF;
+    --gradient-col2: #3399CC;
+    --time-hover-a: .75s;
+    --time-hover-b: 2s;
+
+    /* chart 1 hover font sizes */
+    --fontsize-base: 1.5vw;
+    --fontsize-hover: 3vw;
+
+    /* fonts */
+    --fontfamily01: 'Roboto Condensed', sans-serif;
+    --fontfamily-italic: 'Dosis', sans-serif;
+    --fontfamily-lores: 'lores-9-wide', sans-serif;
+    --fontfamily-title: 'ohm-bold', sans-serif;
+
+
+    }
+    
+    @-webkit-keyframes animaccouncementgradient {
+        0%{background-position:0% 96%}
+        50%{background-position:100% 5%}
+        100%{background-position:0% 96%}
+    }
+    @-moz-keyframes animaccouncementgradient {
+        0%{background-position:0% 96%}
+        50%{background-position:100% 5%}
+        100%{background-position:0% 96%}
+    }
+    @keyframes animaccouncementgradient {
+        0%{background-position:0% 96%}
+        50%{background-position:100% 5%}
+        100%{background-position:0% 96%}
+    }
+
+    /* -webkit-animation: gradient 30s ease infinite;
+    -moz-animation: gradient 30s ease infinite;
+    animation: gradient 30s ease infinite; */
+/* ANIMATION fadein opacity */
+    @-webkit-keyframes fadeinopacity01 {
+        0%{opacity:0%}
+        50%{opacity:50%}
+        100%{opacity:100%}
+    }
+    @-moz-keyframes fadeinopacity01 {
+        0%{opacity:0%}
+        50%{opacity:50%}
+        100%{opacity:100%}
+    }
+    @keyframes fadeinopacity01 {
+        0%{opacity:0%}
+        50%{opacity:50%}
+        100%{opacity:100%}
+    }
+
+
+        /* ROOT italic text */
+    #italic {
+        font-style: italic;
+        color: white;
+        text-align: center;
+        font-family: var(--fontfamily-italic);
+        text-transform: uppercase;
+        font-size: 3.5vh;
+    }
+
+
+/* ROOT animation  */
+    .post-filter {
+    display: none!important;
+    }
+    .show
+    {
+    display: block!important;
+    }
+    .hide
+    {
+    display: hide!important;
+    }
+
+
+/* ROOT text  colors */
+    #listtext t{
+        color: navy;
+    }
+
+    #listtext h2{
+        color:black;
+    }
+
+    
+    
